@@ -114,3 +114,86 @@ nav .menu li{
 .btn-4 a{
     text-decoration: none;
     color: #ffffff;
+    }
+#about .about-heading{
+    padding: 0px 120px 120px 120px;
+}
+#about .about-heading h1{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+   
+   
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+#about .about-heading p{
+    color:#627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+#about .about-card{
+    display: flex;
+    margin: 0px 120px 120px 120px;
+    background-color: #ffffff;
+    gap: 16px;
+    text-align: center;
+
+}
+.about .about-container {
+        width: 71%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#about .card-information img{
+    background-color:#F95555;
+    border-radius: 100%;
+    padding: 8px;
+}
+#about .card-information h2{
+    font-size: 24px0;
+    font-weight: 600;
+    color: #001931;
+}
+#about .card-information P{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 28px;
+}
+#knowledge .knowledge-section{
+    width: 71%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+
+#knowledge .knowledge-section .image{
+    height: 600;
+    width: 600px;
+}
+#knowledge .knowledge-section .know-heading h5{
+    color: #30B868;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+#knowledge .knowledge-section .know-heading h2{
+    color: #001931;
+    font-size: 48px;
+    line-height: 100%
+    font-weight: 700;
+}
+#knowledge .knowledge-section{
+    display: flex;
+}
