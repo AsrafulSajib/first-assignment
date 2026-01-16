@@ -59,6 +59,15 @@ nav .menu li{
     border-radius: 1000px;
 
 }
+.btn-2 .dot{
+    height: 8px;
+    width: 8px;
+    background-color: #30B868;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 rgba(40, 167, 69, 0.4);
+    animation: pulse 1.5s infinite;
+}
 .btn-2 a{
     text-decoration: none;
 }
@@ -87,20 +96,33 @@ nav .menu li{
     font-weight: 400;
     font-size: 18px;
 }
-.btn-3{
-    background-color: #469165;
-    border: none;
+.banner-section .banner-button{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+ .banner-section .banner-button .btn-3{
+    display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-weight: 600;
-   padding: 12px 16px;
-   gap: 10px;
-   margin-top: 30px;
+    background-color: #469165;
+    color: #ffffff;
+    padding: 12px 16px ;
+    border: none;
+    font-size: 16px;    
+    border-radius: 4px;
+}
+.arrow{
+    width: 18px;
+    height: auto;
 }
 .btn-3 a{
     text-decoration: none;
     color: #ffffff;
 }
+
 .btn-4 {
     border: 1px solid #ffffff;
     align-items: center;
@@ -110,11 +132,18 @@ nav .menu li{
     gap: 10px;
     background-color: transparent;
     margin-left: 20px;
+    border-radius: 4px;
+    
 }
 .btn-4 a{
     text-decoration: none;
     color: #ffffff;
     }
+.btn-4 #play-icon{
+    background-color: transparent;
+    padding-right: 5px;
+    
+}
 #about .about-heading{
     padding: 0px 120px 120px 120px;
 }
@@ -142,13 +171,14 @@ nav .menu li{
 #about .about-card{
     display: flex;
     margin: 0px 120px 120px 120px;
+    justify-content: space-between;
     background-color: #ffffff;
     gap: 16px;
     text-align: center;
 
 }
 .about .about-container {
-        width: 71%;
+     width: 71%;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -170,15 +200,13 @@ nav .menu li{
     line-height: 28px;
 }
 #knowledge .knowledge-section{
-    width: 71%;
-    max-width: 1920px;
-    margin: 0 auto;
+     padding: 0px 120px 120px 120px;
     display: flex;
     gap: 60px;
 }
 
 #knowledge .knowledge-section .image{
-    height: 600;
+    height: 600px;
     width: 600px;
 }
 #knowledge .knowledge-section .know-heading h5{
@@ -194,6 +222,113 @@ nav .menu li{
     line-height: 100%
     font-weight: 700;
 }
-#knowledge .knowledge-section{
-    display: flex;
+#knowledge .knowledge-section .know-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
 }
+#knowledge .know{
+    display: flex;
+    gap: 6px;
+    line-height: ;
+}
+#knowledge .first-know{
+    padding-top: 20px;
+}
+#knowledge .first-know .know{
+    padding-top: 10px;
+}
+#early-access .early-heading h1{
+    font-size: 40px;
+    color: #001931;
+    font-weight: 700;
+    text-align: center;
+}
+#early-access .early-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #627382;
+}
+#early-access .early-bottom .early-bottom1{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+#early-access .early-bottom .btn-5{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    background-color: #469165;
+    color: #ffffff;
+    padding: 12px 16px ;
+    border: none;
+    font-size: 16px;    
+    border-radius: 4px;
+}
+.arrow{
+    width: 18px;
+    height: auto;
+}
+#early-access .early-bottom button img{
+    color: #ffffff;
+
+}
+#early-access .early-bottom p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section-footer{
+    background-color: #001931; 
+    margin-top: 80px;
+    
+}
+.section-footer .footer-body img{
+    padding: 120px 0px;
+
+}
+.section-footer .footer-social{
+    padding: 120px 0px;
+}
+.section-footer .footer-social h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-footer .footer-social a{
+    color: #ffffff;
+    gap: 16px;
+    border-radius: 100%;
+}
+
+.section-footer .footer-body{
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.section-footer .footer-bottom hr{
+    width: 71%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 0.000000001px solid #ffffff;
+}
+.section-footer .footer-bottom p{
+     text-align: center;
+     color: #ffffff;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     font-size: 16px;
+}
+
